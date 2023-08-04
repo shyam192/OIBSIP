@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ body {
+    background:linear-gradient(45deg, black, gray);
+    min-height: 100vh;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+  }
+  .top_section h1 {
+    margin:10px 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f7f2f2;
+    text-transform: uppercase;
+    
+  }
+  .top_section h4 {
+    font-size: 30px;
+    text-align: end;
+    color: #e9e2e2;
+  }
+  
+  .image_container {
+    
+    border-radius: 50%;
+    border: 5px solid rgb(89, 88, 88);
+    box-shadow: 0px 3px 2px aliceblue;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #f8f2f2;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: #fcfbfb;
+  }
+  .childhood_section {
+    margin:50px 0;
+    color: #fcfcfc;
+  }
+  .childhood_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: #f6f3f3;
+  }
+  .childhood_section p {
+    margin:20px 0;
+  }
+  .film_section {
+    margin: 50px 0;
+    color: #f5f3f3;
+  }
+  .film_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: #f6f3f3;
+  }
+  .film_section p {
+    margin:20px 0;
+  }
